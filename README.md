@@ -76,8 +76,9 @@ Everything else is under the MIT License:
 
 [![GitHub license](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square)](https://github.com/mafima/time-series-predition-comparison/blob/master/LICENSE) 
 
-## Run Tests:
+## Run Everything:
 To run ALL functions of the program you can run the run.py class!
+This will start all methods and will show you the new results when done.
 
 ## base features for comparing
 datapipeline - compare the same dataset with multiple approaches
