@@ -1,0 +1,12 @@
+pandas>=0.24.1
+pandas_datareader
+matplotlib
+numpy
+sklearn
+setuptools>=41.6.0
+tensorflow==2.0.0
+keras
+preprocessing
+datetime
+pyfinance
+torch

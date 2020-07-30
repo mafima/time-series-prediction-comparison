@@ -1,0 +1,14 @@
+statsmodels
+pandas>=0.24.1
+pandas-datareader
+matplotlib
+numpy
+scikit-learn
+setuptools>=45.2.0
+tensorflow==2.1.0
+cudatoolkit==10.1.243
+keras-preprocessing==1.1.0
+keras-applications==1.0.8
+pygpu
+theano
+tqdm

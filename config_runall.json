@@ -1,0 +1,25 @@
+{
+
+    "data": {
+		"filename": "data/sp500.csv",
+		"folder":"data/",
+		"crawl_data_by_symbol":[
+			"^GDAXI",
+			"^GSPC"
+		],
+		"crawl_data_by_symbol_all":[
+			"^GDAXI","^GSPC","^DJI","UBER","AMD","","","","","",""
+		],
+        "columns": [
+            "Close"
+        ],
+        "train_test_split": 0.8,
+        "normalise": true
+	},
+	"approaches_folder":"approaches/",
+	"approaches": [
+		"_2_ARIMA",
+		"_1_holtwinters",
+		"_3_LSTM"],
+	"comparison_folder":"results_comparison/"
+}

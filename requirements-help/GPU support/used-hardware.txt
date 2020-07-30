@@ -1,0 +1,44 @@
+
+CPU
+
+	AMD Ryzen 7 2700X Eight-Core Processor 
+
+	Basisgeschwindigkeit:	3,70 GHz
+	Sockets:	1
+	Kerne:	8
+	Logische Prozessoren:	16
+	Virtualisierung:	Deaktiviert
+	Hyper-V-Unterstützung:	Ja
+	L1-Cache:	768 KB
+	L2-Cache:	4,0 MB
+	L3-Cache:	16,0 MB
+	
+GPU 
+
+	NVIDIA GeForce RTX 2070 SUPER
+
+	Treiberversion:	26.21.14.4219
+	Treiberdatum:	29.01.2020
+	DirectX-Version:	12 (FL 12.1)
+	Physischer Standort:	PCI-Bus 38, Gerät 0, Funktion 0
+
+	Dedizierter GPU-Speicher	1,8/8,0 GB
+	Gemeinsamer GPU-Speicher	0,1/8,0 GB
+	GPU-Speicher	1,9/16,0 GB
+
+
+Arbeitsspeicher / RAM
+
+	16,0 GB
+
+	Geschwindigkeit:	3200 MHz
+	Steckplätze verwendet:	2 von 4
+	Formfaktor:	DIMM
+	Für Hardware reserviert:	47,8 MB
+
+	Verfügbar	7,7 GB
+	Im Cache	7,8 GB
+	Zugesichert	13,3/25,5 GB
+	Ausgelagerter Pool	869 MB
+	Nicht ausgelagerter Pool	475 MB
+	In Verwendung (komprimiert)	8,1 GB (490 MB)

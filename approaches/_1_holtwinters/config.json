@@ -1,0 +1,22 @@
+{
+	"comment": "DEFAULT VALUES: \t\"model\": {\n\t\t\"trend_type\": \"add\",\n\t\t\"damped\": false,\n\t\t\"seasonal_type\": \"add\",\n\t\t\"seasonal_periods\": 365\n\t}",
+	"title": "HW",
+	"data": {
+		"folder": "../../data/",
+		"filename": "../../data/sp500.csv",
+        "columns": [
+            "Close"
+        ],
+        "train_test_split": 0.8,
+        "normalise": true
+    },
+	"model": {
+		"trend_type": "add",
+		"damped": true,
+		"seasonal_type": "mul",
+		"seasonal_periods": 200,
+		"auto_parameter": false
+	},
+	"visualise_results": true,
+	"results_path": "../../results_comparison/results.json"
+}
