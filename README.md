@@ -36,9 +36,11 @@ input data is read from the "data" folder. containing files can be changed. new 
 datamanipulation and visualisation can be done with the scripts in the data folder.
 by default you can compare the same dataset with multiple approaches.
 
-## base features for comparing
-visualisation - use the same class for visualising in all of them
+## results and comparison
+
+prediction visualisation - use the same class for visualising
 evaluation - basic np evaluation function for getting error
+result visualisation
 
 ## approaches / methods for predictions
 current prediction methods you can use:
