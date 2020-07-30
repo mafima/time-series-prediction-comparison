@@ -1,0 +1,84 @@
+LSTM
+question: how does the LSTM with different normalisation compare to LSTMsimple with same dataset?
+data:BAC
+
+
+
+	1018/1018 [==============================] - 72s 71ms/step - loss: 0.0037
+	[Model] Training Completed. Model saved as saved_models\09012020-161630-e1.h5
+	Time taken: 0:01:14.581843
+	[Model] Predicting Sequences Multiple...
+	test length: 50 pred length: 50
+	RMSE: 0.30546222
+	MAE: 0.30222635
+	MAPE: 3015.87302256
+	SMAPE: 182.83482569
+	truth /// std: 0.04 var: 0.00 mean: -0.01
+	pred /// std: 0.00 var: 0.00 mean: 0.29 
+	
+	config: 
+	
+	    "sequence_length": 50,
+        "train_test_split": 0.85,
+        "normalise": true
+    },
+	"training": {
+		"epochs": 1,
+		"batch_size": 1
+	},
+	
+LSTM minmaxscaler
+
+	fitting model	: 100%|██████████| 1/1 [00:54<00:00, 54.77s/it]
+	predicting data	: 100%|██████████| 100/100 [00:01<00:00, 57.54it/s]
+	test length: 377 pred length: 377
+	RMSE: 1.30882486
+	MAE: 1.01953441
+	MAPE: 3.69226383
+	SMAPE: 3.59602048
+	truth /// std: 2.05 var: 4.21 mean: 28.83
+	pred /// std: 1.06 var: 1.12 mean: 29.44 
+	
+	
+	train_dataset: 77, test_dataset: 56
+	fitting model	: 100%|██████████| 100/100 [00:50<00:00,  1.98it/s]
+	predicting data	: 100%|██████████| 100/100 [00:00<00:00, 429.18it/s]
+	test length: 33 pred length: 33
+	RMSE: 11.46556852
+	MAE: 10.06248124
+	MAPE: 6.53416918
+	SMAPE: 6.27419769
+	truth /// std: 7.11 var: 50.49 mean: 156.22
+	pred /// std: 7.31 var: 53.45 mean: 165.50 
+	
+	
+	
+	2 EPOCHS!!!
+	train_dataset: 1005, test_dataset: 503
+	WARNING:tensorflow:From C:\Users\manuel\Anaconda3\envs\p36gpu\lib\site-packages\keras\backend\tensorflow_backend.py:1349: calling reduce_mean (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
+	Instructions for updating:
+	keep_dims is deprecated, use keepdims instead
+	fitting model	: 100%|██████████| 2/2 [02:07<00:00, 63.88s/it]
+	predicting data	: 100%|██████████| 251/251 [00:04<00:00, 58.36it/s]
+	test length: 251 pred length: 251
+	RMSE: 2.44529863
+	MAE: 2.09203222
+	MAPE: 7.02723357
+	SMAPE: 7.34493656
+	truth /// std: 2.17 var: 4.73 mean: 28.77
+	pred /// std: 0.76 var: 0.57 mean: 26.82 
+	
+	
+	
+	
+	
+	
+	CONFIG:
+	model = Sequential()
+    model.add(LSTM(64,
+                   activation='relu',
+                   batch_input_shape=(batch_size, look_back, 1),
+                   stateful=True,
+                   return_sequences=False))
+    model.add(Dense(1, activation='linear'))
+    model.compile(loss='mean_squared_error', optimizer='adam')

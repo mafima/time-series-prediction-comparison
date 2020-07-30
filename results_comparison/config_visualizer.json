@@ -1,0 +1,22 @@
+{
+	"//": "visualizer for results comparison. mode: 'box' OR 'violin' ",
+	"input": {
+		"filename": "results.json",
+        "inner_metric": "MAPE",
+        "train_test_split": 0.8,
+        "normalise": true
+    },
+	"visuals": {
+		"mode": "box",
+		"xlabel": "datasets",
+		"ylabel": "MAPE",
+		"xlabelsize": 5,
+		"ylabelsize": 10,
+		"xlabeloffset": 1,
+		"reducekeys": {
+			"reduce": false,
+			"reduceby": "_",
+			"splitID" : 0
+		}
+	}
+}

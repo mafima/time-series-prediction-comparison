@@ -1,0 +1,21 @@
+{
+	"//": "ARIMA config comment:",
+	"title": "ARIMA",
+	"data": {
+		"folder": "../../data/",
+		"filename": "../../data/sp500.csv",
+        "columns": [
+            "Close"
+        ],
+        "train_test_split": 0.8,
+        "normalise": true
+    },
+	"///": "comment: modelorder[ar,i,ma]: basic: [1,1,1] default: [5,1,0]",
+	"model_order": [1,1,1],
+
+	"////": "comment: true: observation. false: prediction. defaults to: observation",
+	"train_in_test": false,
+
+	"visualise_results": true,
+	"results_path": "../../results_comparison/results.json"
+}

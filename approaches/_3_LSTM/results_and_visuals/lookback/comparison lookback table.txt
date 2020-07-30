@@ -1,0 +1,5 @@
+lookback,time in seconds per epochs, epochs, MAPE, dataset
+0.001,10,4,6.07, BAC
+0.1,139 ,4,4.01, BAC
+0.2,223,4,3.37, BAC
+0.4,297,4,6.4, BAC

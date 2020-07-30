@@ -1,0 +1,47 @@
+{
+	"//": "LSTM config comment: training: {epochs: 2,batch_size: 32},  ../../ \t\t\" ",
+	"title" : "LSTM",
+	"data": {
+		"folder": "../../data/",
+		"filename": "../../data/sp500.csv",
+        "columns": [
+            "Close"
+        ],
+        "train_test_split": 0.8,
+        "normalise": true
+    },
+	"training": {
+		"epochs": 4,
+		"batch_size": 1,
+		"look_back_percent": 0.2,
+		"//": "lookback does only affect forecast, not prediction. set predict_test_not_forecast setting if u want to use it for testdata",
+		"use_generator": false
+	},
+	"model": {
+		"loss": "mse",
+		"optimizer": "adam",
+		"layers": [
+			{
+				"type": "lstm",
+				"neurons": 16,
+				"input_dim": 1,
+				"return_seq": false
+			},
+			{
+				"type": "dropout",
+				"rate": 0.2
+			},
+			{
+				"type": "dense",
+				"neurons": 1,
+				"activation": "linear"
+			}
+		],
+		"path": "saved_models",
+		"save": false,
+		"load": false
+	},
+	"predict_test_not_forecast": true,
+	"visualise_results": true,
+	"results_path": "../../results_comparison/results.json"
+}

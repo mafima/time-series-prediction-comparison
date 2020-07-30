@@ -1,0 +1,53 @@
+data,MAE,MAPE,LSTMmode,config, windowsize_lookback
+IRM_seasonal.txt,0.10380938,159.79380580, LSTM, 0, 50
+IRM_seasonal.txt,NaN,NaN, LSTMs, 0, 0.1
+IRM_seasonal.txt,0.063470918,100.34522449, LSTM, 1, 50
+IRM_seasonal.txt,1.56592144,4.16894729, LSTMs, 1, 0.1
+
+LSTM has different normalisation!
+
+configs:
+0:			
+	{
+		"type": "lstm",
+		"neurons": 64,
+		"input_dim": 1,
+		"return_seq": false
+	},
+	{
+		"type": "dense",
+		"neurons": 1,
+		"activation": "linear"
+	}
+			
+1:
+	{
+		"type": "lstm",
+		"neurons": 100,
+		"input_timesteps": 9,
+		"input_dim": 2,
+		"return_seq": true
+	},
+	{
+		"type": "dropout",
+		"rate": 0.2
+	},
+	{
+		"type": "lstm",
+		"neurons": 100,
+		"return_seq": true
+	},
+	{
+		"type": "lstm",
+		"neurons": 100,
+		"return_seq": false
+	},
+	{
+		"type": "dropout",
+		"rate": 0.2
+	},
+	{
+		"type": "dense",
+		"neurons": 1,
+		"activation": "linear"
+	}
