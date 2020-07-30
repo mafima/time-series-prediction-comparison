@@ -36,11 +36,6 @@ input data is read from the "data" folder. containing files can be changed. new 
 datamanipulation and visualisation can be done with the scripts in the data folder.
 by default you can compare the same dataset with multiple approaches.
 
-## results and comparison
-
-prediction visualisation - use the same class for visualising
-evaluation - basic np evaluation function for getting error
-result visualisation
 
 ## approaches / methods for predictions
 current prediction methods you can use:
@@ -51,6 +46,22 @@ features: config, split, normalisation, forecast, evaluation, visualisation
 features: config, split, normalisation, forecast, evaluation, visualisation
 - LSTM
 features: config, datanormalisation, split, forecast, evaluation
+
+## results and comparison
+
+| approach | accuracy (mean MAPE) |
+| --------------- | --------------- |
+| Holt-Winters  | 11.43254053624151  |
+| ARIMA  | 10.305568060027946  |
+| LSTM  | 10.74913006361077 |
+
+[![results](https://github.com/mafima/time-series-prediction-comparison/blob/master/results_comparison/approach%20comparison/ARIMA.png)]
+
+[![results2](https://github.com/mafima/time-series-prediction-comparison/blob/master/results_comparison/approach%20comparison/LSTM.png)]
+
+prediction visualisation - use the same class for visualising
+evaluation - basic np evaluation function for getting error
+result visualisation
 
 ## FAQ / troubleshoot
 
