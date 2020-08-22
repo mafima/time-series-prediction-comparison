@@ -70,10 +70,6 @@ Check File Paths.
 
 ## LICENSE / CREDIT
 
-Code used may has been created by others and is used under their seperate license. Reference to every original copyright and license owner is made under the "credit-references" folder and in the coresponding folders. Please contact me immediately if copyrighted files are used without your permission or without giving proper credit. In that case the corresponding code will be removed as soon as possible.
-
-Everything else is under the MIT License:
-
 [![GitHub license](https://img.shields.io/badge/License-MIT-brightgreen.svg?style=flat-square)](https://github.com/mafima/time-series-predition-comparison/blob/master/LICENSE) 
 
 ## Run Everything:
