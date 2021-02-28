@@ -49,7 +49,7 @@ features: config, datanormalisation, split, forecast, evaluation
 
 ## results and comparison
 
-| approach | accuracy (mean MAPE) |
+| approach | error (mean MAPE, lower is better) |
 | --------------- | --------------- |
 | Holt-Winters  | 11.43254053624151  |
 | ARIMA  | 10.305568060027946  |
