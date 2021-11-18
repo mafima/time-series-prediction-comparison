@@ -1,7 +1,7 @@
 # time series predition comparison
-predict stock market prices using machine learning and traditional methods. compare accuracy of the resulting predictions.
+predict stock market prices using machine learning and traditional methods. compare accuracy of the resulting predictions & easily add new methods.
 
-## ONLY CONTAINS RESULTS, VISUALS and CONFIGURATIONS right now!
+## ONLY CONTAINS RESULTS, VISUALS and CONFIGURATIONS!
 
 ![](credit-references/logo_cuda.jpg)
 ![](credit-references/logo_keras.jpg)
