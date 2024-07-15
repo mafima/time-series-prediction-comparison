@@ -1,7 +1,7 @@
 # AI time series predition comparison
 predict stock market prices using machine learning and traditional methods. compare accuracy & easily add new methods.
 
-## ONLY CONTAINS RESULTS, VISUALS and CONFIGURATIONS!
+-> ONLY CONTAINS RESULTS, VISUALS and CONFIGURATIONS! <-
 
 ![](credit-references/logo_cuda.jpg)
 ![](credit-references/logo_keras.jpg)
