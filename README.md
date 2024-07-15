@@ -55,9 +55,9 @@ features: config, datanormalisation, split, forecast, evaluation
 | ARIMA  | 10.3055  |
 | LSTM  | 6.8266 |
 
-[![results](https://github.com/mafima/time-series-prediction-comparison/blob/master/results_comparison/approach%20comparison/ARIMA.png)]
+![results](https://github.com/mafima/time-series-prediction-comparison/blob/master/results_comparison/approach%20comparison/ARIMA.png)
 
-[![results2](https://github.com/mafima/time-series-prediction-comparison/blob/master/results_comparison/approach%20comparison/LSTM.png)]
+![results2](https://github.com/mafima/time-series-prediction-comparison/blob/master/results_comparison/approach%20comparison/LSTM.png)
 
 prediction visualisation - use the same class for visualising
 evaluation - basic np evaluation function for getting error
