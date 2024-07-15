@@ -1,4 +1,4 @@
-### AI time series predition comparison
+# AI time series predition comparison
 predict stock market prices using machine learning and traditional methods. compare accuracy & easily add new methods.
 
 ## ONLY CONTAINS RESULTS, VISUALS and CONFIGURATIONS!
