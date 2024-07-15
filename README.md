@@ -51,9 +51,9 @@ features: config, datanormalisation, split, forecast, evaluation
 
 | approach | error (mean MAPE, lower is better) |
 | --------------- | --------------- |
-| Holt-Winters  | 11.43254053624151  |
-| ARIMA  | 10.305568060027946  |
-| LSTM  | 10.74913006361077 |
+| Holt-Winters  | 11.4325  |
+| ARIMA  | 10.3055  |
+| LSTM  | 6.8266 |
 
 [![results](https://github.com/mafima/time-series-prediction-comparison/blob/master/results_comparison/approach%20comparison/ARIMA.png)]
 
