@@ -15,7 +15,7 @@ defusedxml==0.6.0
 entrypoints==0.3
 gast==0.2.2
 google-pasta==0.1.8
-grpcio==1.16.1
+grpcio==1.53.2
 h5py==2.9.0
 hmmlearn==0.2.3
 hupper==1.8.1
